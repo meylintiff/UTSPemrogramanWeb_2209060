@@ -1,0 +1,286 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border: 1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.kolom {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.kolom1 {
+    margin-top: 200px;
+    margin-bottom: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.kolom2 {
+    margin-top: 150px;
+    margin-bottom: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+h3 {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+h4 {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 10px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    width: 100%;
+    line-height: 30px;
+}
+
+img {
+    max-width: 500px; 
+    max-height: 500px; 
+    width: auto;
+    margin-top: 125px;
+}
+
+.tengah {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.projects-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-projects {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kartu-projects p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+    max-width: 500px; 
+    max-height: 500px;
+}
+
+.about-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kartu-about p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #364f6b;
+    max-width: 400px; 
+    max-height: 400px;
+}
+
+.contact-info {
+    margin-bottom: 200px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info p {
+    margin-top: 50px;
+    width: 20%;
+    margin: 0 auto;
+  }
+  
+  .links a {
+    display: block;
+    margin-bottom: 20px;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+
+  form {
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 1.4rem;
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    font-family: "Roboto" sans-serif;
+    background: var(--secondaryBackgroundColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 3px;
+    resize: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    section img  {
+        display: block;
+    }
+    .kartu-projects {
+        width: 50%;
+    }
+    .kartu-contact {
+        width: 50%;
+    }
+}
